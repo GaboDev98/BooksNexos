@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90AC9FF424F8656300B835D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AC9FF324F8656300B835D1 /* AppDelegate.swift */; };
+		90AC9FF624F8656300B835D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AC9FF524F8656300B835D1 /* SceneDelegate.swift */; };
+		90AC9FF824F8656300B835D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AC9FF724F8656300B835D1 /* ContentView.swift */; };
+		90AC9FFA24F8656900B835D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AC9FF924F8656900B835D1 /* Assets.xcassets */; };
+		90AC9FFD24F8656900B835D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AC9FFC24F8656900B835D1 /* Preview Assets.xcassets */; };
+		90ACA00024F8656900B835D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AC9FFE24F8656900B835D1 /* LaunchScreen.storyboard */; };
+		90ACA00B24F8656900B835D1 /* BookNexosSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACA00A24F8656900B835D1 /* BookNexosSwiftUITests.swift */; };
+		90ACA01624F8656900B835D1 /* BookNexosSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACA01524F8656900B835D1 /* BookNexosSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90ACA00724F8656900B835D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AC9FE824F8656300B835D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90AC9FEF24F8656300B835D1;
+			remoteInfo = BookNexosSwiftUI;
+		};
+		90ACA01224F8656900B835D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AC9FE824F8656300B835D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90AC9FEF24F8656300B835D1;
+			remoteInfo = BookNexosSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90AC9FF024F8656300B835D1 /* BookNexosSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookNexosSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AC9FF324F8656300B835D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90AC9FF524F8656300B835D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90AC9FF724F8656300B835D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90AC9FF924F8656900B835D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90AC9FFC24F8656900B835D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90AC9FFF24F8656900B835D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90ACA00124F8656900B835D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ACA00624F8656900B835D1 /* BookNexosSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookNexosSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ACA00A24F8656900B835D1 /* BookNexosSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNexosSwiftUITests.swift; sourceTree = "<group>"; };
+		90ACA00C24F8656900B835D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ACA01124F8656900B835D1 /* BookNexosSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookNexosSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ACA01524F8656900B835D1 /* BookNexosSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNexosSwiftUIUITests.swift; sourceTree = "<group>"; };
+		90ACA01724F8656900B835D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90AC9FED24F8656300B835D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ACA00324F8656900B835D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ACA00E24F8656900B835D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AC9FE724F8656300B835D1 = {
+			isa = PBXGroup;
+			children = (
+				90AC9FF224F8656300B835D1 /* BookNexosSwiftUI */,
+				90ACA00924F8656900B835D1 /* BookNexosSwiftUITests */,
+				90ACA01424F8656900B835D1 /* BookNexosSwiftUIUITests */,
+				90AC9FF124F8656300B835D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90AC9FF124F8656300B835D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90AC9FF024F8656300B835D1 /* BookNexosSwiftUI.app */,
+				90ACA00624F8656900B835D1 /* BookNexosSwiftUITests.xctest */,
+				90ACA01124F8656900B835D1 /* BookNexosSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90AC9FF224F8656300B835D1 /* BookNexosSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				90AC9FF324F8656300B835D1 /* AppDelegate.swift */,
+				90AC9FF524F8656300B835D1 /* SceneDelegate.swift */,
+				90AC9FF724F8656300B835D1 /* ContentView.swift */,
+				90AC9FF924F8656900B835D1 /* Assets.xcassets */,
+				90AC9FFE24F8656900B835D1 /* LaunchScreen.storyboard */,
+				90ACA00124F8656900B835D1 /* Info.plist */,
+				90AC9FFB24F8656900B835D1 /* Preview Content */,
+			);
+			path = BookNexosSwiftUI;
+			sourceTree = "<group>";
+		};
+		90AC9FFB24F8656900B835D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90AC9FFC24F8656900B835D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90ACA00924F8656900B835D1 /* BookNexosSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90ACA00A24F8656900B835D1 /* BookNexosSwiftUITests.swift */,
+				90ACA00C24F8656900B835D1 /* Info.plist */,
+			);
+			path = BookNexosSwiftUITests;
+			sourceTree = "<group>";
+		};
+		90ACA01424F8656900B835D1 /* BookNexosSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90ACA01524F8656900B835D1 /* BookNexosSwiftUIUITests.swift */,
+				90ACA01724F8656900B835D1 /* Info.plist */,
+			);
+			path = BookNexosSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90AC9FEF24F8656300B835D1 /* BookNexosSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ACA01A24F8656900B835D1 /* Build configuration list for PBXNativeTarget "BookNexosSwiftUI" */;
+			buildPhases = (
+				90AC9FEC24F8656300B835D1 /* Sources */,
+				90AC9FED24F8656300B835D1 /* Frameworks */,
+				90AC9FEE24F8656300B835D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookNexosSwiftUI;
+			productName = BookNexosSwiftUI;
+			productReference = 90AC9FF024F8656300B835D1 /* BookNexosSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90ACA00524F8656900B835D1 /* BookNexosSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ACA01D24F8656900B835D1 /* Build configuration list for PBXNativeTarget "BookNexosSwiftUITests" */;
+			buildPhases = (
+				90ACA00224F8656900B835D1 /* Sources */,
+				90ACA00324F8656900B835D1 /* Frameworks */,
+				90ACA00424F8656900B835D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90ACA00824F8656900B835D1 /* PBXTargetDependency */,
+			);
+			name = BookNexosSwiftUITests;
+			productName = BookNexosSwiftUITests;
+			productReference = 90ACA00624F8656900B835D1 /* BookNexosSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90ACA01024F8656900B835D1 /* BookNexosSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ACA02024F8656900B835D1 /* Build configuration list for PBXNativeTarget "BookNexosSwiftUIUITests" */;
+			buildPhases = (
+				90ACA00D24F8656900B835D1 /* Sources */,
+				90ACA00E24F8656900B835D1 /* Frameworks */,
+				90ACA00F24F8656900B835D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90ACA01324F8656900B835D1 /* PBXTargetDependency */,
+			);
+			name = BookNexosSwiftUIUITests;
+			productName = BookNexosSwiftUIUITests;
+			productReference = 90ACA01124F8656900B835D1 /* BookNexosSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AC9FE824F8656300B835D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Angel Gabriel Ascanio Duran";
+				TargetAttributes = {
+					90AC9FEF24F8656300B835D1 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					90ACA00524F8656900B835D1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 90AC9FEF24F8656300B835D1;
+					};
+					90ACA01024F8656900B835D1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 90AC9FEF24F8656300B835D1;
+					};
+				};
+			};
+			buildConfigurationList = 90AC9FEB24F8656300B835D1 /* Build configuration list for PBXProject "BookNexosSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90AC9FE724F8656300B835D1;
+			productRefGroup = 90AC9FF124F8656300B835D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90AC9FEF24F8656300B835D1 /* BookNexosSwiftUI */,
+				90ACA00524F8656900B835D1 /* BookNexosSwiftUITests */,
+				90ACA01024F8656900B835D1 /* BookNexosSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90AC9FEE24F8656300B835D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ACA00024F8656900B835D1 /* LaunchScreen.storyboard in Resources */,
+				90AC9FFD24F8656900B835D1 /* Preview Assets.xcassets in Resources */,
+				90AC9FFA24F8656900B835D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ACA00424F8656900B835D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ACA00F24F8656900B835D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AC9FEC24F8656300B835D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AC9FF424F8656300B835D1 /* AppDelegate.swift in Sources */,
+				90AC9FF624F8656300B835D1 /* SceneDelegate.swift in Sources */,
+				90AC9FF824F8656300B835D1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ACA00224F8656900B835D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ACA00B24F8656900B835D1 /* BookNexosSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ACA00D24F8656900B835D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ACA01624F8656900B835D1 /* BookNexosSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90ACA00824F8656900B835D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90AC9FEF24F8656300B835D1 /* BookNexosSwiftUI */;
+			targetProxy = 90ACA00724F8656900B835D1 /* PBXContainerItemProxy */;
+		};
+		90ACA01324F8656900B835D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90AC9FEF24F8656300B835D1 /* BookNexosSwiftUI */;
+			targetProxy = 90ACA01224F8656900B835D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90AC9FFE24F8656900B835D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90AC9FFF24F8656900B835D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90ACA01824F8656900B835D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90ACA01924F8656900B835D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90ACA01B24F8656900B835D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BookNexosSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = G5N73233A7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BookNexosSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexos.books.BookNexosSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90ACA01C24F8656900B835D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BookNexosSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = G5N73233A7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BookNexosSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexos.books.BookNexosSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90ACA01E24F8656900B835D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N73233A7;
+				INFOPLIST_FILE = BookNexosSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexos.books.BookNexosSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookNexosSwiftUI.app/BookNexosSwiftUI";
+			};
+			name = Debug;
+		};
+		90ACA01F24F8656900B835D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N73233A7;
+				INFOPLIST_FILE = BookNexosSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexos.books.BookNexosSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookNexosSwiftUI.app/BookNexosSwiftUI";
+			};
+			name = Release;
+		};
+		90ACA02124F8656900B835D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N73233A7;
+				INFOPLIST_FILE = BookNexosSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexos.books.BookNexosSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookNexosSwiftUI;
+			};
+			name = Debug;
+		};
+		90ACA02224F8656900B835D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N73233A7;
+				INFOPLIST_FILE = BookNexosSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexos.books.BookNexosSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookNexosSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AC9FEB24F8656300B835D1 /* Build configuration list for PBXProject "BookNexosSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ACA01824F8656900B835D1 /* Debug */,
+				90ACA01924F8656900B835D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ACA01A24F8656900B835D1 /* Build configuration list for PBXNativeTarget "BookNexosSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ACA01B24F8656900B835D1 /* Debug */,
+				90ACA01C24F8656900B835D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ACA01D24F8656900B835D1 /* Build configuration list for PBXNativeTarget "BookNexosSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ACA01E24F8656900B835D1 /* Debug */,
+				90ACA01F24F8656900B835D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ACA02024F8656900B835D1 /* Build configuration list for PBXNativeTarget "BookNexosSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ACA02124F8656900B835D1 /* Debug */,
+				90ACA02224F8656900B835D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90AC9FE824F8656300B835D1 /* Project object */;
+}
